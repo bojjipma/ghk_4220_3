@@ -80,10 +80,10 @@ export const App = () => {
             <PureCell.Content>
               <PureCell.Main>
                 <Typography.Text view="primary-medium" tag="p" defaultMargins={false}>
-                  24 визита в бизнес-залы и рестораны в год
+                  Безлимитные посещения бизнес-залов и ресторанов
                 </Typography.Text>
                 <Typography.Text view="primary-small" color="secondary">
-                  Не чаще 8 раз в месяц
+                  В любое время
                 </Typography.Text>
               </PureCell.Main>
             </PureCell.Content>
@@ -95,10 +95,10 @@ export const App = () => {
             <PureCell.Content>
               <PureCell.Main>
                 <Typography.Text view="primary-medium" tag="p" defaultMargins={false}>
-                  12 поездок на такси в год
+                  15 поездок на такси в год
                 </Typography.Text>
                 <Typography.Text view="primary-small" color="secondary">
-                  Не чаще 2 раз в месяц
+                  Не чаще 3 раз в месяц
                 </Typography.Text>
               </PureCell.Main>
             </PureCell.Content>
@@ -128,10 +128,10 @@ export const App = () => {
           hint="Подключить"
         >
           {selected === 'На 1 месяц' ? (
-            '10 000 ₽ в месяц'
+            '20 000 ₽ в месяц'
           ) : (
             <>
-              <s>120 000 ₽</s> <span style={{ color: '#FFD57B' }}>96 000 ₽ на год</span>
+              <s>240 000 ₽</s> <span style={{ color: '#FFD57B' }}>192 000 ₽ на год</span>
             </>
           )}
         </ButtonMobile>
